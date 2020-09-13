@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  xmlns:th="http://www.thymeleaf.org"> 
+
+
+<body>
+
+	<h1>Cadastro de Produto</h1>
+	
+	<span th:text='${mensagem}'></span>
+	
+	<br><br>
+	
+	<form method="post" >
+		<label for="sku"> SKU </label>
+		<input type="text" name="sku" id="sku">
+		
+		<input type="submit" value="salvar" >
+	</form>
+	
+</body>
+
+</html>
